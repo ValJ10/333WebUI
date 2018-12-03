@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #DEB887;
 }
 
 .container{
@@ -12,11 +12,33 @@ body {
 }
 
 .dark{
-  padding: 15px;
-  background: #35424a;
-  color: #ffffff;
-  margin-top: 10px;
+  padding: 10px;
+  background: #255a37;
+  color: #DEB887;
+  margin-top: 15px;
   margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.image-container img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+
+.dark-hours{
+  padding: 10px;
+  background: #255a37;
+  color: #DEB887;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right:50px;
 }
 
 ul{
@@ -27,7 +49,7 @@ ul{
 /* Header */
 
 header{
-  background: #353637;
+  background: #285328;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
@@ -66,7 +88,7 @@ header .highlight, header .current a {
 }
 
 header a:hover{
-  color: #cccccc;
+  color: #DEB887;
   font-weight: bold;
 }
 
@@ -77,7 +99,7 @@ header a:hover{
   background:url('../img/golf-couse-overview.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
-  color: #ffffff;
+  color: #DEB887;
 }
 
 #showcase h1{
@@ -93,7 +115,7 @@ header a:hover{
 /* Newsletter */
 #newsletter {
   padding: 15px;
-  color: #ffffff;
+  color: #DEB887;
   background: #353637;
 }
 
@@ -135,8 +157,8 @@ header a:hover{
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #32a0c2;
+  color: #DEB887;
+  background-color: #285328;
   text-align: center;
 }
 
@@ -157,7 +179,9 @@ aside#sidebar input, aside#sidebar textarea {
   padding: 5px;
 }
 
-/* Services */
+
+
+/* Events */
 ul#services li{
   list-style: none;
   padding: 20px;
